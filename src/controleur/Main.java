@@ -42,14 +42,14 @@ public class Main extends Application {
 	public static void ouvrirFenGestionProf() {
 		fProf.show();
 	}
+	
 	public static void ouvrirFenNouvProf() {
 		fNouvProf.show();
-		}
+	}
+	
 	public static void fermerFenGestionProf() {
 		fProf.close();
-		}
-
-
+	}
 	
 	public static void ouvrirModifierProf(Professeur professeur) {
 		 try {
@@ -102,4 +102,5 @@ public class Main extends Application {
 	public static void main(String[] args) {
 		Application.launch(args);
 	}
+
 }
